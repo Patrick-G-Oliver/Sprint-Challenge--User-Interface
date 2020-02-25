@@ -34,13 +34,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is markup that gives meaning to the elements it wraps and their contents; connoting and/or denoting the purposes behind their presence and organization within the context of their HTML document. For example, while the headline of an article on a webpage could be ensconced within a div element with no detrimental effects to the page’s structure, such an arrangement would not be considered semantic as the div gives no indication as to the purpose of its content. The use of a header element, however, would be semantic as it identifies the headline as the “heading” of the page, thereby implying its singular importance. Also, in practical terms, the use of semantic HTML improves screen reader performance, SEO, and other human and automated interactions with a webpage. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+1) display: block; causes an element to start on its own line of a webpage, whereas display: inline; allows elements to appear on the same line. 
+2) display: block; allows for the width and height properties to be applied to an element, while display: inline; does not.  
 
 3. What are the 4 areas of the box model?
 
+The box model is comprised of: 
+1) the content (the innermost area); 
+2) the padding (the area surrounding the content); 
+3) the border (surrounding the padding); 
+4) the margin (an area outside the border appearing as space around the visible element on the rendered page). 
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+align-items: center; works on the cross axis (in contrast to the justify-content: center; with works along the main axis).
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable to teams of developers because it allows their individual members to branch off their own copies of a master copy of code, perform the tasks they are assigned on their copies, and then, upon ironing out any conflicts, merge their copies back together, thus facilitating collaboration, specialization, and the division of labor while preserving an original blueprint of the project at hand. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

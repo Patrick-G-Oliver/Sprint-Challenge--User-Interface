@@ -93,100 +93,58 @@ p {
     color: black;
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.headliner {
+    margin: 25px 0 10px 20px;
+}
+
+.headliner p {
+    width: 100%;
     margin-bottom: 20px;
-    margin-top: 20px;
-    border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+hr {
+    border: dashed .5px;
 }
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
+.top-row-div {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
     justify-content: center;
 }
 
-#teal {
-    background-color: teal;
-}
-
-#gold {
-    background-color: gold;
-}
-
-#cadetblue {
-    background-color: cadetblue;
-}
-
-#coral {
-    background-color: coral;
-}
-
-#crimson {
-    background-color: crimson;
-}
-
-#forestgreen {
-    background-color: forestgreen;
-}
-
-#darkorchid {
-    background-color: darkorchid;
-}
-
-#hotpink {
-    background-color: hotpink;
-}
-
-#indigo {
-    background-color: indigo;
-}
-
-#dodgerblue {
-    background-color: dodgerblue;
-}
-
-.bottom-content {
+.bottom-row-div {
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
+.inner-div {
+    margin: 15px;
+    
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.inner-div h2 {
+    margin-top: 15px;
+}
+
+.inner-div p {
+    margin: 10px 0;
+}
+
+button {
+    width: 135px;
+    padding: 10px 0;
+    background: none;
+    border-radius: 10px;
+    border: solid 2.25px;
+    font-size: 16px;
+    margin: 12px 0;
+}
+
+.closing-section {
+    margin: 25px 0 40px 25px;
+}
+
+.closing-section p {
+    width: 100%;
 }
 
 footer {
